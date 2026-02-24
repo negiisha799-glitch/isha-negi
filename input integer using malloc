@@ -12,13 +12,13 @@ int main() {
         printf("Memory cant be allocated");
         exit(1);
     }
+
     for(i=0;i<n;i++){
         printf("Enter integers: ");
         scanf("%d",ptr+i);
-    }
-    for(i=0;i<n;i++){
+}
 
-    
+    for(i=0;i<n;i++){
     printf("Integers are: %d\n",*(ptr+i));
     }
     return 0;
