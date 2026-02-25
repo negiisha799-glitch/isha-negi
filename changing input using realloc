@@ -15,8 +15,8 @@ int main() {
     }
     ptr =(int *)realloc(ptr, 4*sizeof(int));
     if(ptr==NULL){
-printf("Memory not available!");
-exit(1);
+    printf("Memory not available!");
+    exit(1);
     }
     printf("Enter 2 more integers: \n");
     for(i=2;i<4;i++){
