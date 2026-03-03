@@ -8,7 +8,7 @@ int main() {
     if(ptr==NULL){
         printf("Memory not available!");
         exit(1);
-    }
+    }  
     printf("Enter the two numbers: \n");
     for(i=0;i<2;i++){
         scanf("%d",ptr+i);
